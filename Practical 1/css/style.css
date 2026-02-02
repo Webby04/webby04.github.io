@@ -1,0 +1,44 @@
+/*
+Author: Lachlan Webb
+Date: 28/01/2024
+File Name: style.css
+*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+    background-color: #c1cdc1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-btn {
+  background-color: #ff7a00;   /* strong orange */
+  color: white;                /* text colour */
+}
+
+.cta-btn:hover {
+  background-color: #e66900;   /* darker when hovering */
+  color: white;
+}
+
+
+.card {
+  background-color: #E0E5E0;
+}
+
+.product-img {
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.contact-section {
+    padding-top: 150px; /* moves the card down */
+}
+
+
+footer {
+  margin-top: auto;
+}
